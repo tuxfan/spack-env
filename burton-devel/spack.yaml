@@ -1,6 +1,6 @@
 spack:
   include:
-    - https://github.com/tuxfan/spack-env/blob/develop/flecsi-devel/packages.yaml
+    - https://github.com/tuxfan/spack-env/blob/develop/burton-devel/packages.yaml
   specs: [cgdb@master, git, caliper@master, libristra, exodusii, flecsi+graphviz++kokkos++hdf5+flog ^legion conduit=mpi network=gasnet]
   view: true
   concretizer:
