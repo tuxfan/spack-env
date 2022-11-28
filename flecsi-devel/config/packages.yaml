@@ -1,7 +1,6 @@
 packages:
   all:
-    compiler:
-      - gcc
+    require: '%gcc'
     providers:
       mpi: [mpich]
   mpich:
