@@ -1,6 +1,6 @@
 packages:
   all:
-    require: '%clang'
+    require: '%gcc'
     providers:
       mpi: [mpich]
   mpich:
