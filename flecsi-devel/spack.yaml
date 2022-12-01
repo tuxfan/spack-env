@@ -1,7 +1,7 @@
 spack:
   include:
   - https://github.com/tuxfan/spack-env/blob/develop/flecsi-devel/config
-  specs: [cgdb@master, git, caliper@master, graphviz, hdf5, kokkos@3.6.01, legion@ctrl-rep-13
+  specs: [cgdb, git, caliper, graphviz, hdf5, kokkos, legion
       +shared +hdf5 +kokkos conduit=mpi network=gasnet, parmetis, boost cxxstd=17
       +program_options +atomic +filesystem +regex +system]
   view: true

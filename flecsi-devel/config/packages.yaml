@@ -4,8 +4,14 @@ packages:
     providers:
       mpi: [mpich]
   mpich:
-    require: "3.4.3"
+    require: "@3.4.3"
   openmpi:
-    require: "4.1.2"
+    require: "@4.1.2"
   kokkos:
-    require: "3.6.01"
+    require: "@3.6.01"
+  cgdb:
+    require: "@master"
+  capiler:
+    require: "@master"
+  legion:
+    require: "@ctrl-rep-13"
