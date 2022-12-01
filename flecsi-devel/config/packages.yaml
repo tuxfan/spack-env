@@ -7,3 +7,5 @@ packages:
     version: [3.4.3]
   openmpi:
     version: [4.1.2]
+  kokkos:
+    version: [3.6.01]
