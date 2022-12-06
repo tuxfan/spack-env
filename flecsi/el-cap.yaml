@@ -1,6 +1,6 @@
 spack:
   include:
-  - https://github.com/tuxfan/spack-env/blob/develop/gnu-9.4.0
+  - https://github.com/tuxfan/spack-env/blob/develop/configs/gnu-9.4.0
   specs: [cgdb, git, caliper, graphviz, hdf5, kokkos, legion
       +shared +hdf5 +kokkos conduit=mpi network=gasnet, parmetis, boost cxxstd=17
       +program_options +atomic +filesystem +regex +system]

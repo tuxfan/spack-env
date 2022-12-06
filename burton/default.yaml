@@ -1,6 +1,6 @@
 spack:
   include:
-    - https://github.com/tuxfan/spack-env/blob/develop/gnu-default
+    - https://github.com/tuxfan/spack-env/blob/develop/configs/gnu-default
   specs: [cgdb@master, git, caliper@master, libristra, exodusii, flecsi+graphviz++kokkos++hdf5+flog ^legion conduit=mpi network=gasnet]
   view: true
   concretizer:
