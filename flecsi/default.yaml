@@ -1,7 +1,7 @@
 spack:
   include:
   - https://github.com/tuxfan/spack-env/blob/develop/configs/gnu-default
-  specs: [cgdb, git, caliper, graphviz, hdf5, kokkos, legion
+  specs: [cmake, cgdb, git, caliper, graphviz, hdf5, kokkos, legion
       +shared +hdf5 +kokkos conduit=mpi network=gasnet, parmetis, boost cxxstd=17
       +program_options +atomic +filesystem +regex +system]
   view: true
