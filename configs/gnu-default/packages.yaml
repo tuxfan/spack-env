@@ -11,7 +11,7 @@ packages:
     require: "@3.6.01"
   cgdb:
     require: "@master"
-  capiler:
+  caliper:
     require: "@master"
   legion:
-    require: "@ctrl-rep-13"
+    require: "@ctrl-rep-15"
