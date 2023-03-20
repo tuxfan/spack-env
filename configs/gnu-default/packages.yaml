@@ -7,8 +7,6 @@ packages:
     require: "@3.4.3"
   openmpi:
     require: "@4.1.2"
-  kokkos:
-    require: "@3.6.01"
   cgdb:
     require: "@master"
   caliper:
