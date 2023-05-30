@@ -8,4 +8,4 @@ spack:
   concretizer:
     unify: true
   repos:
-  - /home/bergen/devel/gitlab/flecsi/2/spack-repo
+  - /home/bergen/devel/gitlab/flecsi/default/spack-repo
